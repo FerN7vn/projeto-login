@@ -21,6 +21,48 @@
         width: 100%;
     }   <-- Por algum motivo bizarro esta configuração fazia o h1, o parágrafo e todo o formulário sumirem, deixando apenas um espaço em branco.
     */
+    
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 70%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    form > input[type=submit]:hover {
+        background-color: #316b69;
+    }
+    
+    form > input[type=submit]:active {
+        background-color: #65dfdb;
+    }
+    
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: white;
+        border: 1px solid #406362;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #195d62;
+    }
+    
+    form > a.botao:hover {
+        background-color: #65dfdb;
+    }
+    
+    form > a.botao > span {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 992px) {
